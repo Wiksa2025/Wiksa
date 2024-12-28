@@ -31,7 +31,6 @@ li{
     padding: 10px;
     transition: 1.5s;
     color: white;
-    border: 2px solid white;
     animation-name: Neon;
     animation-fill-mode: both;
     animation-duration: 5s;
