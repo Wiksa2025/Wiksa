@@ -54,7 +54,7 @@ h1{
     border-radius: 10px;
     animation-fill-mode: both; 
     font-weight: 500;
-    animation-name: Neon3;
+    animation-name: Neon;
     animation-duration: 5s;
     transition: 1.5s;
     width: 40%;
