@@ -5,7 +5,6 @@ body{
     align-items: center;
     justify-content: center;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    background-position: center;
 }
 .titulo__container{
     width: 100%;
@@ -32,6 +31,7 @@ li{
     padding: 10px;
     transition: 1.5s;
     color: white;
+    border: 2px solid white;
     animation-name: Neon;
     animation-fill-mode: both;
     animation-duration: 5s;
@@ -40,6 +40,7 @@ li{
     text-align: center;
     justify-content: center;
     font-weight: bold;
+    background-color: rgba(43, 40, 40, 0.897);
 }
 ul{
     width: 100%;
@@ -99,11 +100,16 @@ li:hover{
 a{
     text-decoration: none;
     color: rgb(255, 255, 255);
-    animation-name: Neon;
+    animation-name: aneon;
     animation-duration: 5s;
     animation-fill-mode: both;
     padding: 0px 30px;
     width: 50%;
+    background-color: rgba(43, 40, 40, 0.897);
+    width: 100%;
+    height: 110%;
+    padding: 0;
+    margin: 0;
 }
 h2{
     color: rgb(255, 255, 255);
@@ -122,13 +128,18 @@ p{
     justify-content: center;
 }
 .logo{
-    width: 22%;
-    height: 40%;
+    width: 20%;
+    height: 30%;
     background-image: url(logo.png);
     border-radius: 50%;
     background-position: center;
-    margin-top: 10px;
-
+    margin-top: 20px;
+}
+.carta__link{
+    animation-name: Neon;
+    animation-duration: 5s;
+    animation-fill-mode: both;
+    border: 2px solid white;
 }
 
 
@@ -218,5 +229,30 @@ p{
         border: 2px solid rgb(238, 6, 6);
         text-shadow: 0px 0px 40px rgb(238, 6, 6);
         box-shadow: 0px 0px 40px 0px rgb(238, 6, 6)
+    }
+}
+@keyframes aneon{ 
+    0%{
+        color: rgb(51, 49, 49);
+        text-shadow: none;
+    }
+    25%{
+        color: rgb(23, 156, 156);
+        text-shadow: 0px 0px 40px   rgb(23, 156, 156);
+    }
+    50%{
+        color: rgb(51, 49, 49);
+        text-shadow: none;
+    }
+    75%{color: rgb(228, 156, 75)
+        text-shadow: 0px 0px 40px  rgb(228, 156, 75);
+    }
+    90%{
+        color: rgb(51, 49, 49);
+        text-shadow: none;
+    
+    }
+    100%{color: rgb(15, 111, 175);
+        text-shadow: 0px 0px 40px rgb(15, 111, 175);
     }
 }
