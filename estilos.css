@@ -129,11 +129,11 @@ p{
 }
 .logo{
     width: 25%;
-    height: 35%;
+    height: 200%;
     background-image: url(logo.png);
     border-radius: 50%;
     background-position: center;
-    margin-top: 20px;
+
 }
 .carta__link{
     animation-name: Neon;
