@@ -32,7 +32,7 @@ li{
     transition: 1.5s;
     color: white;
     border: 2px solid white;
-    animation-name: Neon;
+    animation-name: Neon3;
     animation-fill-mode: both;
     animation-duration: 5s;
     display: flex;
@@ -226,33 +226,6 @@ p{
         box-shadow: 0px 0px 40px 0px rgb(238, 6, 6)
     }
 }
-@keyframes aneon{ 
-    0%{
-        color: rgb(51, 49, 49);
-        text-shadow: none;
-    }
-    25%{
-        color: rgb(23, 156, 156);
-        text-shadow: 0px 0px 40px   rgb(23, 156, 156);
-    }
-    50%{
-        color: rgb(51, 49, 49);
-        text-shadow: none;
-    }
-    75%{color: rgb(228, 156, 75)
-        text-shadow: 0px 0px 40px  rgb(228, 156, 75);
-    }
-    90%{
-        color:rgb(51, 49, 49);
-        text-shadow:none;
-    
-    }
-    100%{ 
-        color: rgb(15, 111, 175);
-        text-shadow:0px 0px 40px rgb(15, 111, 175);
-    }
-}
-
 @keyframes Neon3{
     0%{
         color: rgb(51, 49, 49);
@@ -285,6 +258,42 @@ p{
     }
     100%{color: rgb(75, 29, 184);
         border: 2px solid rgb(75, 29, 184);
+        text-shadow: 0px 0px 40px rgb(75, 29, 184);
+        box-shadow: 0px 0px 40px 0px rgb(75, 29, 184);
+    }
+}
+@keyframes aneon{
+    0%{
+        color: rgb(51, 49, 49);
+        box-shadow:none;
+       
+        text-shadow: none;
+    }
+    25%{
+        color: rgb(23, 156, 156);
+      
+        text-shadow: 0px 0px 40px   rgb(23, 156, 156);
+        box-shadow: 0px 0px 40px 0px  rgb(23, 156, 156);
+    }
+    50%{
+        color: rgb(51, 49, 49);
+        box-shadow:none;
+      
+        text-shadow: none;
+    }
+    75%{color: rgb(228, 156, 75);
+    
+        text-shadow: 0px 0px 40px  rgb(228, 156, 75);
+        box-shadow: 0px 0px 40px 0px rgb(228, 156, 75)
+    }
+    90%{
+        color: rgb(51, 49, 49);
+        box-shadow:none;
+    
+        text-shadow: none;
+    }
+    100%{color: rgb(75, 29, 184);
+ 
         text-shadow: 0px 0px 40px rgb(75, 29, 184);
         box-shadow: 0px 0px 40px 0px rgb(75, 29, 184);
     }
