@@ -265,6 +265,9 @@ article:hover .sandwich__letra{
     }
 
 
+
+
+
 /**PAPAS**/
 
 
@@ -308,6 +311,106 @@ article:hover .sandwich__letra{
         transform: perspective(600px) rotateY(360deg);
         transition: 1s;
     }
+
+
+
+    /** Bebidas **/
+
+
+
+
+
+    .bebidas{
+        position: relative;
+        width: 300px;
+        height: 300px;
+        }
+        
+        .bebidas .face{
+        width: 100%;
+        height: 100%;
+        backface-visibility: hidden;
+        border-radius: 10px;
+        }
+        .bebidas__texto{
+            background-image: url(bebidas.png);
+            background-size: cover;
+            background-position: center;
+        }
+        .bebidas .bebidas__texto{
+            transform: perspective(600px) rotateY(0deg);
+        transition: 1s;
+            color: white;
+            background-color: rgba(78, 36, 117, 0.575);
+        }
+        .bebidas .bebidas__letra{
+            transform: perspective(600px) rotateY(180deg);
+        transition: 1s;
+        position: absolute;
+        top: 0;
+        background-color: rgba(27, 27, 78, 0.692);
+        color: white;
+        text-align: center;
+        list-style: none;
+        line-height: 16px;
+        }
+        article:hover .bebidas__texto{ 
+            transform: perspective(600px) rotateY(180deg);
+            transition: 1s;
+        }
+        article:hover .bebidas__letra{ 
+            transform: perspective(600px) rotateY(360deg);
+            transition: 1s;
+        }
+
+
+        /** tragos **/
+
+
+
+
+        .tragos{
+            position: relative;
+            width: 300px;
+            height: 300px;
+            }
+            
+            .tragos .face{
+            width: 100%;
+            height: 100%;
+            backface-visibility: hidden;
+            border-radius: 10px;
+            }
+            .tragos__texto{
+                background-image: url(tragos.png);
+                background-size: cover;
+                background-position: center;
+            }
+            .tragos .tragos__texto{
+                transform: perspective(600px) rotateY(0deg);
+            transition: 1s;
+                color: white;
+                background-color: rgba(78, 36, 117, 0.575);
+            }
+            .tragos .tragos__letra{
+                transform: perspective(600px) rotateY(180deg);
+            transition: 1s;
+            position: absolute;
+            top: 0;
+            background-color: rgba(27, 27, 78, 0.692);
+            color: white;
+            text-align: center;
+            list-style: none;
+            line-height:20px;
+            }
+            article:hover .tragos__texto{ 
+                transform: perspective(600px) rotateY(180deg);
+                transition: 1s;
+            }
+            article:hover .tragos__letra{ 
+                transform: perspective(600px) rotateY(360deg);
+                transition: 1s;
+            }
 
 
     @keyframes Neon2{
